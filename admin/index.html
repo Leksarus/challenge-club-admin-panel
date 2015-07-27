@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>admin</title>
+</head>
+<body>
+    <div class="menu">
+        <div class="header">
+            <a href="http://billiardsclub.pl/" class="home1"><img src="./imges/home.png"></a>
+        </div>  
+        <div class="menuContainer">
+            <nav>
+                <ul>
+                    <li><a href="http://billiardsclub.pl/" title="addNews"><img src="./imges/homePage.png">Strona główna</a></li>
+                    <li><a href="./add.html" title="addNews">Dodaj aktualność</a></li>
+                    <li><a href="#" title="galery">Galeria</a></li>
+                    <li><a href="#" title="archive">Archiwum</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="tableContainer">
+            <table class="newsTable">
+                <tr class="tableMenu">
+                    <td>ID</td>
+                    <td>Tytuł</td>
+                    <td>Data aktualności</td>
+                    <td>Edytuj</td>
+                    <td>Usuń</td>
+                </tr>
+                <tr class="tableContent">
+                    <td>123654</td>
+                    <td>Dolorem</td>
+                    <td>13-stycznia-2015</td>
+                    <td>
+                        <a href="./edit.html">
+                            <input type="button" value="" class="editTableButton">
+                         </a>   
+                    </td>
+                    <td>
+                        <a href="./delete.html" title="delete">
+                            <input type="button" class="deleteTableButton">
+                        </a>    
+                    </td>
+                </tr>
+                <tr class="tableContent">
+                    <td>412687</td>
+                    <td>Epsum</td>
+                    <td>30-03.2015</td>
+                    <td>
+                        <a href="./edit.html">
+                            <input type="button" value="" class="editTableButton">
+                        </a>    
+                    </td>
+                    <td>
+                        <a href="./delete.html" title="delete">
+                            <input type="button" class="deleteTableButton">
+                        </a>    
+                    </td>
+                </tr>
+                <tr class="tableContent">
+                    <td>565478</td>
+                    <td>Poasyk</td>
+                    <td>10-05.2015</td>
+                    <td>
+                        <a href="./edit.html">
+                            <input type="button" value="" class="editTableButton">
+                        </a>
+                    </td>
+                    <td>
+                        <a href="./delete.html" title="delete">
+                            <input type="button" class="deleteTableButton">
+                        </a>    
+                    </td>
+                </tr>
+                <tr class="tableContent">
+                    <td>123654</td>
+                    <td>Dolorem</td>
+                    <td>13-stycznia-2015</td>
+                    <td>
+                        <a href="./edit.html">
+                            <input type="button" value="" class="editTableButton">
+                        </a>
+                    </td>
+                    <td>
+                        <a href="./delete.html" title="delete">
+                            <input type="button" class="deleteTableButton">
+                        </a>    
+                    </td>
+                </tr>               
+                <tr class="tableContent">
+                    <td>123654</td>
+                    <td>Dolorem</td>
+                    <td>13-stycznia-2015</td>
+                    <td>
+                        <a href="./edit.html">
+                            <input type="button" value="" class="editTableButton">
+                        </a>
+                    </td>
+                    <td>
+                        <a href="./delete.html" title="delete">
+                            <input type="button" class="deleteTableButton">
+                        </a>    
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
+<!--
+index.html:
+Menu: dodaj aktualność
+Tabelka z listą aktualności:
+- kolumny (id, tytuł, data aktualności, edytuj, usuń)
+
+edit.html / add.html:
+Formularz z polami: tytuł, treść (textarea), zdjęcie (input[type="file"]), data aktualności, przycisk edytuj / dodaj.
+-->
